@@ -1,0 +1,81 @@
+.card{
+    width: 50%;
+    box-shadow: 0px 0px 12px black;
+    padding: 4vh;
+    border-radius: 12px;
+    margin: 2vh;
+}
+.imagen{
+width: 20vh;
+}
+.titulo{
+ font-size: 2vh;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ padding: 2vh;
+}
+.contenedorprecio{
+display: flex;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+}
+.precio{
+color: #212121;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-size: 4vh;
+}
+.boton{
+color: black;
+font-family: 'Plus Jakarta Sans', sans-serif;
+border: none;
+background-color: white;
+}
+.boton:hover{
+    cursor: pointer;
+}
+.boton img{
+    width: 5vh;
+}
+#botondetalle{
+background-color: white;
+border: none;
+    width: 50px;
+    height: 40px;
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#botondetalle img{
+    width: 4vh;
+}
+#botondetalle:hover{
+    cursor: pointer;
+}
+#contenedorloader{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#contenedorloader img{
+    width: 400px;
+}
+#contenedorchico{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+@media (min-width: 1024px){
+    .card{
+        width: 25%;
+        height: 500px;
+    }
+    .imagen{
+        max-width: 250px;
+        max-height: 200px ;
+    }
+}

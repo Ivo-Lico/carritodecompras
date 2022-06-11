@@ -1,0 +1,12 @@
+#contenedortotal{
+    border-top: solid 1px black;
+    margin: 8vh;
+}
+#total{
+    padding: 7vh;
+}
+#contenedorgrande{
+    height: 50vh;
+    overflow: scroll;
+    margin: 8vh;
+}

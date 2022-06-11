@@ -1,0 +1,55 @@
+.imagenescarrito{
+    width: 12vh;
+}
+h1{
+    font-size: 2vh;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 2vh;
+    text-align: center;
+}
+h4{
+    font-size: 3vh;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 4vh;
+    display: flex;
+    justify-content: flex-end;
+}
+#contenedorcarrito{
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 1px black;
+}
+#remover{
+    width: 8vh;
+}
+#botonremover{
+    background-color: white;
+    border: none;
+    padding: 2vh;
+}
+#botonremover:hover{
+    cursor: pointer;
+}
+@media (max-width: 520px){
+    #remover{
+padding: 0px;
+width: 4vh;
+    }
+    .imagenescarrito{
+padding: 0px;
+width: 8vh;
+    }
+    h1{
+padding: 0px;
+font-size: 0.8rem;
+    }
+    #precio2{
+        padding: 0px;
+        font-size: 1rem;
+    }
+    #contenedorgrande{
+        margin: 0vh;
+    }
+}
